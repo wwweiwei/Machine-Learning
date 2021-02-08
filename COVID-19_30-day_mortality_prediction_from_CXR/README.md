@@ -1,10 +1,8 @@
 # COVID-19 30 days mortality prediction from CXR
-- Goal: 
-  - To build a machine learning model to predict the future of COIVD-19 new cases of each country
-  - To predict the cases from 10/9 to 10/15 for each country
-- Dataset: https://reurl.cc/q8LWap
-- Evaluation matrix: MAPE (Mean absolute percentage error)
-  - For example: 
-    - The value you predicted: 𝑦 ̂_𝑖 = [39356, 40034, 38176, 34418, 32710, 32234, 36450]                 
-    - Ground Truth : 𝑦_𝑖  = [50209, 43567, 24598, 51473, 34841, 33871, 40820]
-    - MAPE = 1/7 *1.397 = 0.1995 = 19.95%
+- Goal: To build a machine learning model to predict the 30-day mortality of patients
+- Dataset: 
+  - There are 1,393 patients in the training dataset and each with a CXR JPG image and its file name is an unique patient ID.
+  - 1,393 hospital outcome for all patients will be provided and used as the labels.
+  - The size of CXR has been processed to 320 x 320.
+  - Each image has been processed with histogram equalization.
+- Evaluation matrix: F1-score
