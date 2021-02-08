@@ -1,3 +1,2 @@
-# Final Project
-## Image Style Transfer
-What if you meet a Disney princess in the real world? In this project, we compare six different generative adversarial network(GAN) models to implement image style transfer, especially transform from cartoon to reality. In addition to our results, this paper also contains all details of the training process, and the figures for each model when training. Finally, we conclude that CycleGAN and Pix2pix are the model which has the outstanding performance among all models.
+# Final Project - Image Style Transfer
+What if you meet a Disney princess in the real world? In this project, we compare six different generative adversarial network(GAN) models to implement image style transfer, especially transform from cartoon to reality. In addition to our results, this project also contains all details of the training process, and the figures for each model when training. Finally, we conclude that CycleGAN and Pix2pix are the model which has the outstanding performance among all models.
